@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    background-color: black;
+}
+h1{
+    font-family: 'Rampart One', cursive;
+    color: rgb(202, 179, 49);
+    font-size: 60px;
+}
+.pop{
+    color: gold;
+    font-family: 'Indie Flower', cursive;
+    font-size: 100px;
+}
+.calc-container{
+    display: flex;
+    flex-direction: column;
+    background-color:slateblue;
+    height: 500px;
+    width: 400px;
+}
+
+.row{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    height: 16%;
+}
+
+
+.display-reponse{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.text-rep{
+    margin: 10px;
+}
+
+
+.center-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button{
+    flex-basis: 25%;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    margin: 3px;
+    background-color: indianred;
+}
+
+.button:hover{
+    background-color: rgb(201, 175, 28);
+}
+
+.large{
+    flex-basis: 52%;
+}
+
+.operator{
+    max-width: 100px;
+    max-height: 50px;
+}
