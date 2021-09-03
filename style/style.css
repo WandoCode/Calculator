@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     height: 100vh;
@@ -25,6 +28,7 @@ h1{
     background-color:slateblue;
     height: 500px;
     width: 400px;
+    border-radius: 3px;
 }
 
 .row{
@@ -59,10 +63,12 @@ h1{
     border-top: 1px solid black;
     margin: 3px;
     background-color: indianred;
+    border-radius: 3px;
 }
 
 .button:hover{
     background-color: rgb(201, 175, 28);
+    border: black 6px solid;
 }
 
 .large{
@@ -76,4 +82,8 @@ h1{
 
 .very-large{
     flex-basis: 79%;
+}
+
+.out-color {
+    background-color: #CCAD6E;
 }
